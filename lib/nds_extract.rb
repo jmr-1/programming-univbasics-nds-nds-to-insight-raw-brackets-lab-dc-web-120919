@@ -31,8 +31,6 @@ def directors_totals(nds)
     
     while movie_counter<nds[director_counter][:movies].length do 
       
-      #total_value[director_name] += nds[director_counter][:movies][movie_counter][:worldwide_gross]
-      
       #print out values to check the loop works  
       puts nds[director_counter][:movies][movie_counter][:worldwide_gross]
       
